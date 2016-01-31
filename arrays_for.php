@@ -12,7 +12,9 @@ for ($i=0; $i < count($productos); $i++) {
 	echo "<p>REF: " . $refs[$i] . "<p>";
 	echo "<p>PRECIO: " . $precios[$i] . " &euro;<p>";
 	echo "<hr />";
+	echo $i;
 }
+
 
 
 /*
