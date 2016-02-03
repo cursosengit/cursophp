@@ -1,0 +1,40 @@
+/*nav*/
+
+#nav {
+	float: left;
+	width: 1200px;
+	height: 40px;
+	background-color: #363;
+	border-top: 1px solid #fff;
+}
+
+#nav  > ul {
+	float: right;
+}
+
+#nav  > ul > li {
+	float: left;
+}
+
+#nav  > ul > li > a {
+	float: left;
+	height: 20px;
+	padding: 10px 30px;
+	font: normal normal 14px Arial, Tahoma;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #363;
+	color: #fff;
+	transition: background 0.4s, color 0.4s;
+	-webkit-transition: background 0.4s, color 0.4s;
+}
+
+	#nav  > ul > li > a:hover {
+		background-color: #fff;
+		color: #363;
+	}
+	
+	#nav  > ul > li > a.actual {
+		background-color: #fff;
+		color: #363;
+	}

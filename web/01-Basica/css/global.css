@@ -1,0 +1,59 @@
+#wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#container {
+	float: left;
+	width: 1200px;
+}
+
+/*header*/
+
+#header {
+	float: left;
+	width: 1200px;
+	height: 150px;
+	background-color: #363;
+}
+
+#header > h1 {
+	margin: 20px 0 5px 20px;
+	font: normal bold 28px Arial, Tahoma;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+#header > h2 {
+	margin: 0 0 0 60px;
+	font: italic normal 20px Arial, Tahoma;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+/*contents*/
+
+#contents {
+	float: left;
+	width: 1200px;
+	min-height: 300px;
+	padding: 20px 0 40px 0;
+}
+
+/*footer*/
+
+#footer {
+	float: left;
+	width: 1200px;
+	height: 100px;
+	background-color: #363;
+}
+
+#footer > p {
+	float: left;
+	width: 100%;
+	margin: 40px 0 0 0;
+	font: normal normal 11px Arial, Tahoma;
+	text-align: center;
+	color: #fff;
+}

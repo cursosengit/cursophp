@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>Web con PHP</title>
+	<meta charset="utf-8" />
+	
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/global.css" />
+	<link type="text/css" rel="stylesheet" href="css/nav.css" />
+	<link type="text/css" rel="stylesheet" href="css/contents.css" />
+	
+</head>
+
+<body>
+
+<div id="wrap">
+	
+	<div id="container">
+		
+		<header id="header">
+			
+			<h1>WEB DINÁMICA</h1>
+			<h2>Mi primera web con PHP</h2>
+			
+		</header>
+		
+		<nav id="nav">
+			
+			<ul>
+				
+				<li>
+					<a href="index.html" class="actual">INICIO</a>
+				</li>
+				
+				<li>
+					<a href="catalogo.html">CATÁLOGO</a>
+				</li>
+				
+				<li>
+					<a href="noticias.html">NOTICIAS</a>
+				</li>
+				
+				<li>
+					<a href="contacto.html">CONTACTO</a>
+				</li>
+				
+			</ul>
+			
+		</nav>
+		
+		<section id="contents">
+			
+			<h3>CONTACTO</h3>
+			
+			<section id="contact-form">
+				
+				<form>
+					
+					<ul>
+						
+						<li>
+							<label for="name">NOMBRE *</label>
+							<input type="text" name="name" id="name" maxlength="50" />
+						</li>
+						
+						<li>
+							<label for="email">E-MAIL *</label>
+							<input type="text" name="email" id="email" maxlength="40" />
+						</li>
+						
+						<li>
+							<label for="telefono">TELÉFONO</label>
+							<input type="text" name="telefono" id="telefono" maxlength="15" />
+						</li>
+						
+						<li>
+							<label for="asunto">ASUNTO *</label>
+							<textarea name="asunto" id="asunto" cols="40" rows="8"></textarea>
+						</li>
+						
+						<li class="priv-li">
+							<input type="checkbox" name="privacidad" id="privacidad" value="1" />
+							<label for="privacidad">He leido y Acepto la <a href="#" title="Ver Política de Privacidad">Política de Privacidad</a></label>
+						</li>
+						
+						<li>
+							<input type="submit" value="ENVIAR FORMULARIO" />
+						</li>
+						
+					</ul>
+					
+				</form>
+				
+			</section>
+			
+		</section>
+		
+		<footer id="footer">
+			
+			<p>&copy; 2016 - Todos los derechos reservados</p>
+			
+		</footer>
+		
+	</div>
+	
+</div>
+
+</body>
+
+</html>

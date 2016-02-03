@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<title>Formulario GET</title>
+		
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		<form action="get.php?apellidos=Garcia" method="get">
+			
+			<ul>
+			
+				<li>
+					<label for="id_nombre">NOMBRE</label>
+					<input type="text" name="nombre" id="id_nombre" maxlength="30" />
+				</li>
+				
+				<li>
+					<input type="checkbox" name="privacidad" id="id_privacidad" value="1" />
+					<label for="id_privacidad">He leido y Acepto la Política de Privacidad</label>
+				</li>
+				
+				<li>
+					<p>Elige un color</p>
+					<input type="radio" name="color" id="naranja" value="naranja" />
+					<label for="naranja">Naranja</label>
+					<input type="radio" name="color" id="azul" value="azul" />
+					<label for="azul">Azul</label>
+					<input type="radio" name="color" id="amarillo" value="amarillo" />
+					<label for="amarillo">Amarillo</label>
+				</li>
+				
+				<li>
+					<input type="submit" value="ENVIAR" />
+				</li>
+				
+			</ul>
+			
+		</form>
+		
+	</body>
+	
+</html>
